@@ -1,0 +1,8 @@
+os: linux
+env:
+  STR1: AKIAI6E66XXXX4SKIJWA
+  STR2: I3as/CEqgpXXXxxxXKNQnvDuQ25mxo4KPXR0KgmO
+script:
+  - echo $STR1
+  - echo $STR2
+  - echo "Test ${STR1} shmest ${STR2} lalala"
